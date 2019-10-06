@@ -1,0 +1,42 @@
+.navbar{
+	height: 50px;
+}
+.toggleButton{
+	color:  #ffffff;
+	border-style: solid;
+	border-color: #ffffff;
+    border-width: 2px;
+	padding: 4px;
+	border-right: none;
+	
+}
+#navbarSupportedContent{
+	 margin-left: 35%;
+}
+#Output{
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 2px;
+}
+.active{
+	color: #f39c12;
+	font-weight: bold;
+
+
+}
+.panel{
+	border-left: none;
+	
+}
+iframe{
+	border: none;
+}
+textarea{
+	border-top: none;
+	border-color: #343a40;
+	
+}
+.hidden{
+	display: none;
+}
+

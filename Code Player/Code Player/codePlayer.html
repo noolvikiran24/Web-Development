@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/codePlayer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Code Player</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Code Player</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="toggleButton active" id="html">HTML</div>
+    <div class="toggleButton" id="css">CSS</div>
+    <div class="toggleButton" id="javascript">Javascript</div>
+    <div class="toggleButton active" id="Output">Output</div>
+  </div>
+      
+
+</nav>
+<div id="textCode">
+  <textarea id="htmlContent" class="panel">
+   <p id="hellopara"> Hello !</p>
+  </textarea>
+  <textarea id="cssContent"class="panel hidden">
+  p{
+  color: green;
+}
+  </textarea>
+  <textarea id="javascriptContent" class="panel hidden">
+    document.getElementById("hellopara").innerHTML ="Hello Kiran !";
+  </textarea>
+  <iframe id="outputContent" class="panel" src=""></iframe>
+</div>
+<script src="js/codePlayer.js"></script>
+   
+  </body>
+</html>
