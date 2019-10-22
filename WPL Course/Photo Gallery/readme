@@ -1,1 +1,2 @@
-
+Designed and implemented a photo gallery for a Travel Website using jQuery. The gallery displays all the images on the
+HTML page by making an AJAX call and specific details of an image are shown when the user hovers over it.
