@@ -1,0 +1,69 @@
+
+
+body{
+	padding-top: 10px;
+
+
+}
+
+.glyph{
+    position: relative;
+    left: 35px;
+    pointer-events: none; /*this makes the glyph clickable as part of the input*/
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+#headerSection{
+
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 600px;
+	background-image: url(../images/headerlogo/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+/*#logotext{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60% 180px;
+	top: 50%;
+	margin-top: -90px;
+} */
+
+.img-class{
+	width: auto;
+	height: 200px;
+	margin: 3px;
+}
+#footer{
+	margin-top: 50px;
+}
+img.details{
+	width: 40%;
+	margin: 20px 30%;
+}
+.table-auto{
+	width: auto;
+}
+.navbar-right{
+	float: right;
+}
+html{
+	font-size: 1rem;
+}
+
+
+

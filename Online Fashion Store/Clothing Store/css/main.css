@@ -1,0 +1,52 @@
+
+html{
+	  font-family: "Times New Roman", Times, serif;
+}
+
+body{
+	padding-top: 10px;
+
+}
+
+#headerSection{
+
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 600px;
+	background-image: url(images/headerlogo/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#logotext{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60% 180px;
+	top: 50%;
+	margin-top: -90px;
+}
+
+.img-class{
+	width: auto;
+	height: 200px;
+}
+#footer{
+	margin-top: 50px;
+}
+img.details{
+	width: 40%;
+	margin: 20px 30%;
+}
+.table-auto{
+	width: auto;
+}
+.nav-right{
+	float: right;
+}
