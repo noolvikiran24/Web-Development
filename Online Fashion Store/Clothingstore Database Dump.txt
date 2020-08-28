@@ -1,0 +1,211 @@
+===Database clothingstore
+
+== Table structure for table brand
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|brand|varchar(255)|No|
+== Dumping data for table brand
+
+|3|Nike
+|6|Amazon Basics
+|7|WROGN
+|8|Levis
+|9|Hollister
+|11|asf
+== Table structure for table cart
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|items|text|No|
+|expire_date|datetime|No|
+|paid|tinyint(4)|No|
+== Dumping data for table cart
+
+|25|[{&quot;id&quot;:1,&quot;size&quot;:2,&quot;quantity&quot;:&quot;3&quot;}]|2019-12-13 03:35:16|0
+|26|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;32&quot;,&quot;quantity&quot;:2},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:1,&quot;size&quot;:2,&quot;quantity&quot;:4}]|2019-12-13 03:38:56|0
+|27|[{&quot;id&quot;:1,&quot;size&quot;:2,&quot;quantity&quot;:3}]|2019-12-13 03:44:54|0
+|28|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-13 05:03:21|1
+|29|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;7&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-13 08:29:28|1
+|30|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:2}]|2019-12-13 08:41:14|1
+|31|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;6&quot;,&quot;quantity&quot;:2}]|2019-12-26 20:42:49|0
+|32|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;32&quot;,&quot;quantity&quot;:&quot;2&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;6&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-27 21:53:51|1
+|33|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;6&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:3}]|2019-12-28 16:44:05|1
+|34|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-28 16:52:25|1
+|35|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-29 21:24:06|1
+|36|[{&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;quantity&quot;:0}]|2019-12-29 21:58:09|1
+|37|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 00:06:11|1
+|38|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;32&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 03:43:15|1
+|39|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 03:44:13|1
+|40|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 04:58:19|1
+|41|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 05:01:52|1
+|42|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;34&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;32&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 07:01:35|1
+|43|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-30 21:10:08|1
+|44|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-31 02:30:11|0
+|45|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-31 02:48:20|1
+|46|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-31 04:10:28|0
+|47|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2019-12-31 06:52:56|0
+|48|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-01 00:02:56|0
+|49|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;32&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-01 02:51:16|0
+|50|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:2}]|2020-01-02 20:02:59|0
+|51|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 20:31:03|1
+|52|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 20:38:02|1
+|53|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 20:39:32|1
+|54|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 20:41:21|1
+|55|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 20:42:29|1
+|56|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;6&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 20:44:03|1
+|57|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-02 22:39:01|0
+|58|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-03 07:11:58|0
+|59|[{&quot;id&quot;:&quot;17&quot;,&quot;size&quot;:&quot;6.1&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-03 11:24:18|1
+|60|[{&quot;id&quot;:&quot;18&quot;,&quot;size&quot;:&quot;7.1&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;27&quot;,&quot;size&quot;:&quot;40&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-03 15:42:06|1
+|61|[{&quot;id&quot;:&quot;14&quot;,&quot;size&quot;:&quot;4.7&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-03 17:27:13|1
+|62|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;17&quot;,&quot;size&quot;:&quot;6.1&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-03 17:42:28|1
+|63|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|2020-01-05 04:44:09|0
+== Table structure for table categories
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|category|varchar(255)|No|
+|parent|int(11)|No|0
+|maincategory|text|No|
+== Dumping data for table categories
+
+|1|Men|0|fashion
+|2|Women|0|fashion
+|3|Boys|0|fashion
+|4|Girls|0|fashion
+|21|Shirts|1|-1
+|22|Pants|1|-1
+|23|Shoes|1|-1
+|24|Accessories|1|-1
+|25|Shirts|2|-1
+|26|Purses|2|-1
+|27|Shoes|2|-1
+|28|Dresses|2|-1
+|29|Shirts|3|-1
+|30|Pants|3|-1
+|31|Dresses|4|-1
+|32|Shoes|4|-1
+|33|Jackets|1|-1
+== Table structure for table customers
+
+|------
+|Column|Type|Null|Default
+|------
+|//**customerid**//|bigint(255)|No|
+|first_name|varchar(100)|No|
+|last_name|varchar(100)|No|
+|**username**|varchar(1000)|No|
+|password|varchar(1000)|No|
+|address|varchar(1000)|No|
+|city|varchar(1000)|No|
+|state|varchar(1000)|No|
+|pincode|int(10)|No|
+== Dumping data for table customers
+
+|2|Kiran|Noolvi|af|$2y$10$VPn.CO46oPhO7lon3XyOjep9zp8Pl55R9pA3L6pAzITstkYNKLo0q|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|4|Kiran|Noolvi|kirannoolvi|$2y$10$4oC7R8vKrYQi.t1KJAXfEedfQbLJlDC.WOCD4g68NQt6cdmTXOG9e|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|5|ADMIN|ADMIN|admin|$2y$10$03zY.guuVrjl44PJZIqDDelK2CW9hZCWB724LUWRAeWKUmF9vxK3O|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|6|Prashanth|Noolvi|pnoolvi|$2y$10$QRpgYo7HXhE9pnc3CsmQ6eILfXusG4IIsb2rvVhx9hyJZDq5WK6wu|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|7|Kiran|Noolvi|kiranlib|$2y$10$fTj4mEvE.KwCfcbUxkahre71fiOOQL0Cf3lpOv7yFCQXIHn.lBzL6|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|8|Kiran|Noolvi|noolvikiran24@gmail.com|$2y$10$PF3qpdgdsInjtqQe0CzdLehdER03KzUfgp9Kw46CBxAcqH8kIuPye|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|20|Kiran|Noolvi|query|$2y$10$SjlrNzriP0laUfen8w8GpeH6zcOJHezqXntyFNzm/9jFg5f.Jj./W|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|23|Kiran|Noolvi|asdfasdfadf|$2y$10$t6kEdVt6k8NzKFC4XxQom.MGN/2gAacUw0IRuwKN8WLTXY106JyE.|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|24|Kiran|Noolvi|v|$2y$10$5f23v2EBi/CNEAlF4kpIyupAdunNIXJy5ih4uvs1LxsQz4yQmzrBW|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|25|Kiran|Noolvi|kirannoolvi1|$2y$10$ilV4ueoFf/LgvkUSpfYnRu/L1HWmCFKx/2VrXpO1mzfe5HscAasaC|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|26|Kiran|Noolvi|n|$2y$10$6FGbcMV1O6zUhjkpgJmgu.huknusbcGf03XiD/9SuGHfvA88ksEpq|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|27|Kiran|Noolvi|kkk|$2y$10$TCSeW8m7O/gteSdFLwqsUe.oEolGWbz7vAYAqI7p642A0JhPnxDLW|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|28|Kiran|Noolvi|sadfsaf|$2y$10$zFdJkMTwtMaXQ3VVMxHIiec0RELrRQp7vpsug4HD48B6ErCpC4gh6|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|29|Kiran|Noolvi|sadf|$2y$10$rPVgRv0ZIFaNk8td7YDQ6umZOdQUjIVqtqUCCu40KNctxXKkNIIE6|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|30|Suhas|K|suhas|$2y$10$TZtLgyYFoR8S9MTGgdDye.63C.SXhmJ8Sf/Aeem8XxeK3QTnHqYPi|7575 Frankford Rd|Dallas|TX|75252
+|32|Deepak|J|deepak|$2y$10$7sWUCt41fYaRcCKTSMV.SOf.Vq5ViCJTeQmt/79fknfu/b23vsgg.|7575 Frankford Rd, Apt 3216|Dallas|TX|75252
+|33|Kiran|Noolvi|kirannoolvi29|$2y$10$NT8lK6PZ3awXaGqwQjA7oOJeG4xueapxe4a/GXswvLcUj8dNDqXYW| | | |75252
+|34|Siva|Krishna|sivautd|$2y$10$uuHCJzwiK2KpMv6jKHMKKuu6YJkXTPL9B7eg4H715VAcCcICTyDYK|7575 Frankford Road|Dallas|TEXAS|75252
+|35|Kiran|Noolvi|kirannoolvinewaug|$2y$10$Z3MDV5g5H0FdALVsyKzw/ekcuQK0FX9crpAOfTE1dxokn4s0j5Zdy|7575 Frankford Road|Dallas|TEXAS|75252
+== Table structure for table orders
+
+|------
+|Column|Type|Null|Default
+|------
+|//**orderid**//|int(255)|No|
+|customer_id|int(255)|No|
+|items|text|No|
+|price|int(255)|No|
+|date_ordered|varchar(1000)|No|
+|customer_username|text|No|
+|address|text|No|
+|contact_number|text|No|
+|paid|tinyint(1)|No|
+== Dumping data for table orders
+
+|1|2|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|41|2019-11-30 05:02:15|prashanth|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|4|1|[{&quot;id&quot;:&quot;1&quot;,&quot;size&quot;:&quot;34&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;32&quot;,&quot;quantity&quot;:&quot;1&quot;}]|60|2019-11-30 07:02:15|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|5|1|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|30|2019-11-30 21:10:35|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|6|1|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|30|2019-12-01 02:53:33|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|7|1|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|30|2019-12-03 20:41:38|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|8|1|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;5&quot;,&quot;quantity&quot;:&quot;1&quot;}]|41|2019-12-03 20:42:46|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|9|1|[{&quot;id&quot;:&quot;3&quot;,&quot;size&quot;:&quot;6&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;}]|71|2019-12-03 20:44:18|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|10|1|[{&quot;id&quot;:&quot;17&quot;,&quot;size&quot;:&quot;6.1&quot;,&quot;quantity&quot;:&quot;1&quot;}]|700|2019-12-04 11:24:36|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|11|1|[{&quot;id&quot;:&quot;18&quot;,&quot;size&quot;:&quot;7.1&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;27&quot;,&quot;size&quot;:&quot;40&quot;,&quot;quantity&quot;:&quot;1&quot;}]|1199|2019-12-04 15:42:51|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|12|1|[{&quot;id&quot;:&quot;14&quot;,&quot;size&quot;:&quot;4.7&quot;,&quot;quantity&quot;:&quot;1&quot;}]|400|2019-12-04 17:27:56|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+|13|1|[{&quot;id&quot;:&quot;2&quot;,&quot;size&quot;:&quot;28&quot;,&quot;quantity&quot;:&quot;1&quot;},{&quot;id&quot;:&quot;17&quot;,&quot;size&quot;:&quot;6.1&quot;,&quot;quantity&quot;:&quot;1&quot;}]|730|2019-12-04 17:42:50|kirannoolvi|7575 Frankford Rd, Apt 3216Dallas, TX, 75252|09723301373|1
+== Table structure for table productreview
+
+|------
+|Column|Type|Null|Default
+|------
+|//**review_no**//|int(11)|No|
+|product_id|int(11)|No|
+|customer_username|text|No|
+|order_id|text|No|
+|product_rating|int(11)|No|
+|product_review|text|No|
+== Dumping data for table productreview
+
+|1|1|kirannoolvi|1|4|Really loved the product, Great fit.
+|2|1|kirannoolvi|1|3|Looks decent.
+|3|1|kirannoolvi|1|5|Nice good looking jeans.
+|4|2|kirannoolvi|1|3|Very good t shirts
+|5|1|kirannoolvi|1|5|Awesome Jeans
+|6|1|kirannoolvi|1|1|Poor
+|7|3|kirannoolvi|1|5|These are a very good pair of shoes.
+|8|3|kirannoolvi|1|3|Normal shoes, Not that great.
+|9|17|kirannoolvi|1|4|Good looks
+|10|18|kirannoolvi|1|3|Super cool
+|11|27|kirannoolvi|1|5|Very good watch
+|12|14|kirannoolvi|1|3|iphone
+|13|2|kirannoolvi|1|4|Very good shirt demo
+|14|17|kirannoolvi|1|4|Very good iphone
+== Table structure for table products
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|title|varchar(255)|No|
+|price|decimal(10,2)|No|
+|list_price|decimal(10,2)|No|
+|categories|varchar(255)|No|
+|image|varchar(255)|No|
+|description|text|No|
+|featured|tinyint(4)|No|0
+|sizes|text|No|
+|categoryName|text|No|
+|subcategoryName|text|No|
+|product_available|int(1)|No|
+== Dumping data for table products
+
+|1|Levis Jeans|30.00|60.00|6|images/fashion/men4.png|These pair of jeans are great cool, straight legged and very comfortable. Get a pair while they last !!|1|28:3,32:4,34:1,36:5|Men|Pants|0
+|2|Hollister Shirts|30.00|21.00|1|images/fashion/men1.png|Very comfortable Shirts. Must have.|1|28:3,32:4,34:1,36:5,38:6,40:9,42:5|Men|Shirts|0
+|3|Fancy shoes|41.00|71.00|2|images/fashion/women6.png|Awesome Fancy shoes. Very fancy.|1|5:3,6:4,7:1,8:5,9:6,10:9,11:5|Women|Shoes|1
+|4|Boys Hoodie|21.99|26.99|3|images/fashion/boys1.png| |1| |Boys|Shirts|1
+|5|Women Skirt|30.99|22.00|4|images/fashion/women3.png| |1| |Women|Dresses|1
+|6|Purse|12.00|51.00|2|images/fashion/women5.png| |1|XS:2,S:3,M:2,L:3|Women|Purses|1
+|7|Women Sweater|51.99|101.99|2|images/fashion/women7.png| |1| |Women|Shirts|1
+|8|Girls dress|22.00|30.00|4|images/fashion/girls3.png| |1| |Girls|Dresses|1

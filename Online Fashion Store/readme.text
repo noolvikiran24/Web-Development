@@ -1,1 +1,9 @@
+Readme
 
+- Download the Clothing Store folder.
+- In the Mamp, htdocs folder copy the above Clothing Store folder.
+- Create a database as shown in the Clothingstore database dump.
+- Now start the server.
+- Create a new user.
+- Login using the user's valid credentials.
+- Browse through the different products, view product reviews,add products to the cart, place an order, and review the ordered product.
