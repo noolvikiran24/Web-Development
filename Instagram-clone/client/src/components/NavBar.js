@@ -17,9 +17,12 @@ const NavBar = () => {
         //console.log(state)
         if (state) {
             return [
-                <li><Link to="/profile">My Profile</Link></li>,
-                <li><Link to="/createpost">Create Post</Link></li>,
-                <li>
+                <li key="1"><i  data-target="modal1" className="large material-icons modal-trigger" style={{color:"black"}}>search</i></li>,
+                <li key="2"><Link to="/profile">My Profile</Link></li>,
+                <li key="3"><Link to="/createpost">Create Post</Link></li>,
+                <li key="4"><Link to="/myfollowingpost">My following Posts</Link></li>,
+
+                <li key="5">
                     <button className="btn #90caf9 blue lighten-3" type="submit" name="action" onClick={
                         () => {
                             localStorage.clear()
@@ -31,14 +34,12 @@ const NavBar = () => {
                     } >
                         Log Out
                 </button>
-
-
                 </li>
             ]
         } else {
             return [
-                <li><Link to="/login">Log In</Link></li>,
-                <li><Link to="/signup">Sign Up</Link></li>
+                <li key="6"><Link to="/login">Log In</Link></li>,
+                <li key="7"><Link to="/signup">Sign Up</Link></li>
             ]
         }
 
@@ -49,15 +50,17 @@ const NavBar = () => {
         fetch('/searchusers', {
             method: "post",
             headers: {
-                "Content-Type": "application/json"
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
             body: JSON.stringify({
-                query
+                query: query
             })
         }).then(res => res.json())
-            .then(results => {
-                setUserDetails(results.user)
-            })
+        .then(results => {
+           
+            setUserDetails(results.user)
+        })
     }
 
     return (
